@@ -56,7 +56,7 @@ public class App {
                 desejaContinuar = scanner.nextInt();
             }
 
-            // Exibindo os dados da pessoa após a saída do loop
+            // Exibindo os dados das pessoas após a saída do loop e sua idade atual e não mais a data de nascimento.
             System.out.println("\nDados das pessoas inseridas:");
             for (Pessoa pessoa : pessoas) {
                 // Para cada pessoa, exibe os dados
